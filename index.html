@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  		<title>Orancy Planet</title>
+<!-- 
+
+Highway Template
+
+https://templatemo.com/tm-520-highway
+
+-->
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.jpg">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/fontAwesome.css">
+        <link rel="stylesheet" href="css/light-box.css">
+        <link rel="stylesheet" href="css/templatemo-style.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <style>
+            /* Navbar styles */
+nav {
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 80px;
+}
+
+/* Navigation links */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s, transform 0.2s;
+}
+
+nav ul li a:hover {
+    color: #ffc107;
+    transform: scale(1.1);
+}
+
+/* Menu icon for mobile */
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.menu-icon span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    transition: transform 0.3s;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+    .menu-icon {
+        display: flex;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        background-color: black;
+        padding: 1rem;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 200px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+}
+
+        </style>
+        
+    </head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="Orancy Planet Logo">
+        </div>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul id="nav-menu">
+            <li><a href="#homepage">Homepage</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#career">Career</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+    
+
+    <div id="video-container">
+        <div class="video-overlay"></div>
+        <div class="video-content">
+            <div class="inner">
+              <h1><em>Orancy Planet</em></h1>
+              <p>Elevating Your Workforce,</p>
+              <p>Transforming Your Business</p>
+                <div class="scroll-icon">
+                    <a class="scrollTo" data-scrollTo="portfolio" href="#"><img src="img/scroll-icon.png" alt=""></a>
+                </div>    
+            </div>
+        </div>
+        <video autoplay loop muted>
+        	<source src="timelapse.mp4" type="video/mp4" />
+        </video>
+    </div>
+
+
+
+
+
+    <div class="more-about-us">
+        <div class="container">
+            <div class="col-md-5 col-md-offset-7">
+                <div class="content">
+                    <h2>About Us</h2>
+                    <span>By CEO</span>
+                    <p>Welcome to Orancy Planet, where we are committed to empowering
+                    individuals and businesses by providing expert intervention to 
+                    organisations through seamless HR transformation, change 
+                    implementation, and innovative IT solutions. With a deep focus 
+                    on helping you stand out in today’s competitive job market, we 
+                    tailor our services to ensure that your skills, experience, and 
+                    potential are presented in the best possible light. We specialise 
+                    in providing a diversified range of services, including strategic 
+                    HR consulting, talent acquisition, and workforce management solutions, 
+                    alongside innovative tech vendor services that empower businesses to 
+                    adopt the latest advancements in artificial intelligence, automation, 
+                    and cybersecurity among others.</p>
+                    
+                    <div class="simple-btn">
+                        <a href="#">Continue Reading</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-heading">
+        <div class="container">
+            <div class="heading-content">
+                <h1>Our services</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="services">
+        <div class="container">
+            
+            <div class="col-md-4 col-sm-6">
+                <div class="service-item">
+                    <div class="icon">
+                        <img src="img/service_1.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h4>HR transformation Service</h4><br>
+                        <p>Transform your organization with our comprehensive HR Transformation Services. From enhancing employee development and career transitions to optimizing recruitment processes and fostering international talent acquisition, we provide tailored solutions to elevate your HR practices and organizational effectiveness</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="service-item">
+                    <div class="icon">
+                        <img src="img/service_2.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h4>Change Transformation Service</h4><br>
+                        <p>Navigate digital evolution and business growth with our Change Transformation Services. From strategic IT and HR consultancy to implementing cutting-edge technologies and optimizing administrative workflows, we empower businesses to innovate, expand, and thrive in dynamic market environments.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="service-item">
+                    <div class="icon">
+                        <img src="img/service_3.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h4>IT Service</h4><br>
+                        <p>Drive technological innovation and efficiency with our specialized IT Services. Whether you need web live chat integrations for enhanced customer engagement, custom IT development solutions, or strategic AI and automation implementations, we deliver solutions that align technology with your business objectives for sustained success.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="more-about-us">
+        <div class="container">
+            <div class="col-md-5 col-md-offset-7">
+                <div class="content">
+                    <h2>Career</h2><br>
+                    <p>At Orancy Planet, we recognise the importance of a standout CV and cover letter in achieving your career goals. Our tailored CV and Cover Letter packages are designed to help individuals present their skills and experiences in the most effective way possible. Whether you're just starting your career, seeking a new opportunity, or aiming for a career shift, our expert team is here to provide the support you need to make a lasting impression.</p>
+                    
+                    <div class="simple-btn">
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="pricing-tables">
+        <div class="container">
+            <div class="text">
+                <h2>Pricing</h2>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="table-item">
+                    <h4>£
+                        1,500
+                        /mo</h4>
+                    <span>Silverloom Package</span>
+                    <ul>
+                    	<li>Administrative Excellence</li>
+                        <li>Interview Skills Mastery</li>
+                        <li>1Tailored Applications</li>
+                        <li>Employee Relations and Mediation</li>
+                        <li>VISA Applications Support</li>
+                    </ul>
+                    <div class="simple-btn">
+                        <a href="#">Book free consultation</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="table-item premium-item">
+                    <h4>£
+                        3,500
+                        /mo</h4>
+                    <span>Goldforge Package</span>
+                    <ul>
+                    	<li>All services in SilverLoom Package</li>
+                        <li>Personal and Career Development</li>
+                        <li>Forge Business Expansion</li>
+                        <li>Forge IT Strategy</li>
+                        <li>Forge Business Insights</li>
+                        <li>Forge Mentoring</li>
+                        <li>Forge Global Recruitment</li>
+                    </ul>
+                    <div class="simple-btn">
+                        <a href="#">Book free consultation</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="table-item">
+                    <h4>£7,000/mo</h4>
+                    <span>Silverloom Package</span>
+                    <ul>
+                    	<li>Administrative Excellence</li>
+                        <li>Interview Skills Mastery</li>
+                        <li>1Tailored Applications</li>
+                        <li>Employee Relations and Mediation</li>
+                        <li>VISA Applications Support</li>
+                    </ul>
+                    <div class="simple-btn">
+                        <a href="#">Book free consultation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="container-fluid">
+            <div class="col-md-12">
+                <p>Copyright &copy; 2024 Orancy Planet 
+    
+    | All rightes are reserved</p>
+            </div>
+        </div>
+    </footer>
+
+
+       <!-- Modal button -->
+    <div class="popup-icon">
+        <button id="modBtn" class="modal-btn"><img src="img/contact-icon.png" alt=""></button>
+      </div>  
+  
+      <!-- Modal -->
+      <div id="modal" class="modal">
+        <!-- Modal Content -->
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h3 class="header-title">Orancy planet</h3>
+            <div class="close-btn"><img src="img/close_contact.png" alt=""></div>    
+          </div>
+          <!-- Modal Body -->
+          <div class="modal-body">
+            <div class="col-md-6 col-md-offset-3">
+              <form id="contact" action="" method="post">
+                  <div class="row">
+                      <div class="col-md-12">
+                        <fieldset>
+                          <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required>
+                        </fieldset>
+                      </div>
+                      <div class="col-md-12">
+                        <fieldset>
+                          <input name="email" type="email" class="form-control" id="email" placeholder="Your email..." required>
+                        </fieldset>
+                      </div>
+                      <div class="col-md-12">
+                        <fieldset>
+                          <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required></textarea>
+                        </fieldset>
+                      </div>
+                      <div class="col-md-12">
+                        <fieldset>
+                          <button type="submit" id="form-submit" class="btn">Send Message Now</button>
+                        </fieldset>
+                      </div>
+                  </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      
+  
+    
+
+ 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("nav-menu");
+            menu.classList.toggle("active");
+        }
+        </script>
+        
+    
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+   
+</body>
+</html>
